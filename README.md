@@ -1,2 +1,4 @@
 # Food-Ordering-System-DBMS
-Created a website named hungry hub
+Hello Guys
+So we had a project where we need to create a DBMS. So we dicided to go with Food Ordering System.
+We named it HungryHub.
