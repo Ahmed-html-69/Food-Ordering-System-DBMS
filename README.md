@@ -1,83 +1,93 @@
 # Food-Ordering-System-DBMS
+
+
 Hello Guys
 So we had a project where we need to create a DBMS. So we dicided to go with Food Ordering System.
 We named it HungryHub.
 
+
+
 **INTRODUCTION:**
 
-Welcome to the future of online dining! Our food ordering system project is a testament to the seamless integration of HTML, CSS, PHP, and Dynamic databases, offering a streamlined and user-friendly solution for ordering delicious meals online. Designed to cater to the modern, fast-paced lifestyle, this project not only showcases our prowess in web development but also revolutionizes the way we engage with food services. 
+# HungryHub - Food Ordering System
 
-**DATABASE DESIGN:**
+Welcome to HungryHub, the future of online dining! This project is a dynamic and user-friendly solution for ordering delicious meals online. Developed using HTML, CSS, PHP, and a relational database management system (DBMS), HungryHub aims to streamline the food ordering process and enhance the dining experience.
 
- ENTITIES: 
- 
-•	BOOKTABLE
+## Features
 
-•	CART
+- **Book Table:** Reserve a table by providing your name, phone number, email, number of persons, and preferred date.
+- **Cart:** Add items to your cart, including details such as item name, description, and price.
+- **Customer:** Create and manage your customer account with details like first name, last name, email, phone number, username, and password.
+- **Menu:** Explore the available food options with information on food name, description, and price.
+- **All Sales:** Track all sales with details on the item, description, and price.
 
-•	CUSTOMER
+## Database Design
 
-•	MENU
+### Entities
 
-•	ALL_SALES
+- **BOOKTABLE**
+- **CART**
+- **CUSTOMER**
+- **MENU**
+- **ALL_SALES**
 
-**ATTRIBUTES: **
+### Attributes
 
-BOOKTABLE:
+#### BOOKTABLE
 
-•	ID
+- ID
+- NAME1
+- PHONE
+- EMAIL
+- PERSONS
+- DATE1
 
-•	NAME1
+#### CART
 
-•	PHONE
+- ITEM
+- DESCRIP
+- PRICE
 
-•	EMAIL
+#### CUSTOMER
 
-•	PERSONS
+- ID
+- FIRSTNAME
+- LASTNAME
+- EMAIL
+- PHONE
+- USERNAME
+- PASSWORD
 
-•	DATE1
+#### MENU
 
-CART:
+- FNAME
+- DESCRIP
+- PRICE
 
-•	ITEM
+#### ALL_SALES
 
-•	DESCRIP
+- ITEM
+- DESCRIP
+- PRICE
 
-•	PRICE
+## Getting Started
 
-CUSTOMER:
+1. Clone the repository: `git clone https://github.com/yourusername/hungryhub.git`
+2. Set up your development environment.
+3. Configure the database connection in the PHP files.
+4. Run the project locally.
 
-•	ID
+## Contribution Guidelines
 
-•	FIRSTNAME
+If you'd like to contribute to HungryHub, please follow these guidelines:
 
-•	LASTNAME
-
-•	EMAIL
-
-•	PHONE
-
-•	USERNAME
-
-•	PASWORD
-
-
-MENU:
-
-•	FNAME
-
-•	DESCRIP
-
-•	PRICE
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature/new-feature`
+3. Make your changes and commit: `git commit -m 'Add new feature'`
+4. Push to your branch: `git push origin feature/new-feature`
+5. Open a pull request.
 
 
-ALL_SALES:
-
-•	ITEM
-
-•	DESCRIP
-
-•	PRICE
 
 **SCREENSHOT OF WEBSITE:**
 
